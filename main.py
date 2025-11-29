@@ -138,7 +138,7 @@ class WeatherApp(QWidget):
     # ---------------- WEATHER LOGIC ----------------
 
     def get_weather(self):
-        api_key = "8475ae6cddf425418769a366ad2f7a29"   #Please use your own API KEY
+        api_key = #Please use your own API KEY
         city = self.city_input.text().strip()
         if not city:
             self.display_error("Please enter a city")
